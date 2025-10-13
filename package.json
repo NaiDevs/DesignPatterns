@@ -1,0 +1,21 @@
+{
+  "name": "designpatterns",
+  "version": "1.0.0",
+  "description": "Diferencia entre una arquitectura y un Patron de Diseno",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node --project tsconfig.json \"patrones-creacionales/FactoryMethod.ts\"",
+    "cli": "ts-node main.ts",
+    "start": "node dist/FactoryMethod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
